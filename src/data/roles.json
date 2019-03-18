@@ -1,0 +1,64 @@
+{
+	"steps": [
+				{"id": 1,
+				 "description": "Spies learn teammates",
+				 "Knows": "Open your eyes",
+				 "Reveals": "Lift your thumbs"
+				},
+				{"id": 2, 
+				 "description": "Duke learns spies",
+				 "Knows": "Open your eyes",
+				 "Reveals": "Lift your thumbs"
+				}
+    ],
+	"roles":
+	[{
+		"id": 1,
+		"RoleName": "Duke",
+		"Team": "OD",
+		"Knows": [false, true],
+		"Reveals": [false, false]
+	},
+	{
+		"id": 2,
+		"RoleName": "Lvl III",
+		"Team": "OD",
+		"Knows": [false, false],
+		"Reveals": [false, false]
+	},
+	{
+		"id": 3,
+		"RoleName": "Intellewater",
+		"Team": "OD",
+		"Knows": [false, false],
+		"Reveals": [false, false]
+	},
+	{
+		"id": 4,
+		"RoleName": "RemoteDev",
+		"Team": "OD",
+		"Knows": [false, false],
+		"Reveals": [false, false]
+	},
+	{
+		"id": 5,
+		"RoleName": "Sniper",
+		"Team": "OS",
+		"Knows": [true, false],
+		"Reveals": [true, true]
+	},
+	{
+		"id": 6,
+		"RoleName": "Bad Billy",
+		"Team": "OS",
+		"Knows": [true, false],
+		"Reveals": [true, true]
+	},
+	{
+		"id": 7,
+		"RoleName": "Level II",
+		"Team": "OS",
+		"Knows": [true, false],
+		"Reveals": [true, true]
+	}]
+}

@@ -1,7 +1,8 @@
 import angular from 'angular';
 
-import chart from './chart';
+import roles from './roles';
 
-export default angular.module('components', [chart.name]);
+
+export default angular.module('components', [roles.name]);
 
 console.log('components');
